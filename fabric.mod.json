@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "ultralod",
+  "version": "1.0.0",
+  "name": "Ultra LOD Distance Mod",
+  "description": "A custom mobile-friendly distant terrain renderer for PojavLauncher.",
+  "authors": [
+    "Developer"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ultralod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.ultralod.UltraLodClient"
+    ]
+  },
+  "mixins": [
+    "ultralod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
